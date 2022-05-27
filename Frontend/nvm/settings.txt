@@ -1,0 +1,2 @@
+root: C:\Users\SSAFY\OneDrive - usk.ac.kr\바탕 화면\SSAFY\특화(빅데이터 추천)\fornt\S06P22C204\Frontend\nvm
+path: C:\Program Files\nodejs

@@ -1,0 +1,26 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://j6c204.p.ssafy.io:3306/logTest?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: C204
+    password: ssafyC204
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      jdbc:
+        time_zone: Asia/Seoul
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+
+  cache:
+    type: redis
+  redis:
+    host: "j6c204.p.ssafy.io"
+    port: 8180
+
+server:
+  port: 8083
